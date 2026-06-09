@@ -36,12 +36,14 @@ brew install git
 #### Windows
 
 1. Download **Git for Windows**: [https://git-scm.com/download/win](https://git-scm.com/download/win)
+
 2. Run the installer and accept the defaults.
+
 3. Verify installation:
 
-   ```powershell
-   git --version
-   ```
+```powershell
+git --version
+```
 
 #### Ubuntu / Debian
 
@@ -79,33 +81,22 @@ sudo apt update
 sudo apt install python3 python3-pip python3-venv
 ```
 
-### Step 2: Clone the Repository
+### 2️⃣ Clone the Repository
 
-**If you're a student**, you'll need to fork this repository to get read access and sync with updates:
+**If you’re a student**, you’ll need to fork this repository to get read access and sync with updates:
 
 1. **Fork the Repository**: Click the "Fork" button on the [main repository](https://github.com/rusterman/ML-DS-DL-AI) to create your own copy.
+2. **Clone your fork** (replace `<your-username>` with your GitHub username):
 
-2. **Clone Your Fork**:
 ```bash
-git clone https://github.com/virgin-code/ML-DS-DL-AI.git 
+git clone https://github.com/<your-username>/ML-DS-DL-AI.git
 cd ML-DS-DL-AI
 ```
 
-Replace `<your-username>` with your actual GitHub username.
-
-**Setup Upstream Remote** (Important for syncing updates):
-
-This allows you to fetch the latest changes from the original repository:
+3. **Add the instructor’s repo as upstream** (one‑time, for syncing updates):
 
 ```bash
-git remote add upstream https://github.com/virgin-code/ML-DS-DL-AI.git
-git remote -v  # Verify both origin and upstream are listed
-```
-
-Add the instructor’s repo as **upstream** (one‑time):
-
-```bash
-git remote add upstream https://github.com/virgin-code/ML-DS-DL-AI.git
+git remote add upstream https://github.com/rusterman/ML-DS-DL-AI.git
 git remote -v   # origin = your fork, upstream = instructor
 ```
 
@@ -132,8 +123,16 @@ python -m venv venv
 ### 4️⃣ Install project dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install --upgrade pip && pip install -r requirements.txt
 ```
+
+### 5️⃣ Register the Jupyter kernel
+
+```bash
+python -m ipykernel install --user --name ml-ai --display-name "ML-AI (Python 3.13)"
+```
+
+Then select **"ML-AI (Python 3.13)"** as the kernel when opening any notebook.
 
 ---
 
