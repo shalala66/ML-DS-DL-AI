@@ -6,8 +6,8 @@ A hands-on, project-based path from Python fundamentals to AI Engineering — bu
 
 | # | Module | Covers | Status |
 |---|--------|--------|--------|
-| 1 | [Python Essentials](python_essentials) | Core Python exercises before touching data/ML | ✅ |
-| 2 | [Mathematics](mathematics) | Algebra, equations, inequalities, sigma notation — the math ML actually uses | ✅ |
+| 1 | [Python Essentials](Python-Essentials) | Core Python exercises before touching data/ML | ✅ |
+| 2 | [Mathematics](Mathematics) | Algebra, equations, inequalities, sigma notation — the math ML actually uses | ✅ |
 | 3 | [Machine Learning](Machine-Learning) | Data preprocessing, EDA, supervised learning (regression, trees, SVM, KNN, Naive Bayes), unsupervised learning (clustering, PCA, t-SNE) | ✅ |
 | 4 | [Kaggle Competitions](Kaggle-Competition) | Applied end-to-end projects: House Prices, Instant Gratification | ✅ |
 | 5 | [Neural Networks](Neural-Networks) | Perceptron, tensors, PyTorch fundamentals | ✅ |
