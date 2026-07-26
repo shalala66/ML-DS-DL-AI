@@ -153,7 +153,7 @@ Then select "ML-AI (Python 3.13)" as the kernel when opening any notebook.
 
 ---
 
-## Workflow for Students
+## Workflow for Participant
 
 Follow this simple Git workflow:
 
