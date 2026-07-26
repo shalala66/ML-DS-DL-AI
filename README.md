@@ -159,8 +159,8 @@ Follow this simple Git workflow:
 
 | Actor   | Step                              | Git Commands                                                  |
 |---------|------------------------------------|-----------------------------------------------------------------|
-| Student | Create a personal solution branch  | `git checkout -b solutions/<username>`                          |
-| Student | Work locally, commit often         | `git add .`<br>`git commit -m "solve: exercise description"`    |
-| Student | Push solutions                     | `git push -u origin solutions/<username>`                        |
+| Participant | Create a personal solution branch  | `git checkout -b solutions/<username>`                          |
+| Participant | Work locally, commit often         | `git add .`<br>`git commit -m "solve: exercise description"`    |
+| Participant | Push solutions                     | `git push -u origin solutions/<username>`                        |
 
 Replace `<username>` with your actual GitHub username.
