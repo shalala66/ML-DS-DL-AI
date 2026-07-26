@@ -1,4 +1,5 @@
 numpy
+scipy
 sympy
 matplotlib
 pandas
@@ -6,5 +7,6 @@ seaborn
 scikit-learn
 statsmodels
 category_encoders
+Pillow
 torch
 torchvision
