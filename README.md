@@ -1,4 +1,21 @@
-# ✅ Math & ML & DS & DL & AI
+# ML → DS → DL → AI: A Practical, Progressive Curriculum
+
+A hands-on, project-based path from Python fundamentals to AI Engineering — built progressively over a year of live teaching and still growing. Fork it, work through the modules in order, solve the exercises, and submit your solutions as a pull request.
+
+## 📚 What's Inside
+
+| # | Module | Covers | Status |
+|---|--------|--------|--------|
+| 1 | [Python Essentials](python_essentials) | Core Python exercises before touching data/ML | ✅ |
+| 2 | [Mathematics](mathematics) | Algebra, equations, inequalities, sigma notation — the math ML actually uses | ✅ |
+| 3 | [Machine Learning](Machine-Learning) | Data preprocessing, EDA, supervised learning (regression, trees, SVM, KNN, Naive Bayes), unsupervised learning (clustering, PCA, t-SNE) | ✅ |
+| 4 | [Kaggle Competitions](Kaggle-Competition) | Applied end-to-end projects: House Prices, Instant Gratification | ✅ |
+| 5 | [Neural Networks](Neural-Networks) | Perceptron, tensors, PyTorch fundamentals | ✅ |
+| 6 | [Deep Learning](Deep-Learning) | CNNs, RNNs, LSTMs | ✅ |
+| 7 | NLP + Transformers | — | 🔜 Upcoming |
+| 8 | LLMs + AI Engineering | — | 🔜 Upcoming |
+
+Each module builds on the last — work through them in order for the intended learning path.
 
 ## 📦 Setup and Requirements
 
@@ -25,7 +42,7 @@ GitHub hosts Git repositories in the cloud and adds collaboration tools:
 > **If you have *read‑only* access:** first **fork** the repository to your GitHub account, then clone **your fork**.
 > **If you have write access:** you can clone the instructor’s repo directly and skip the fork step.
 
-### 0️⃣ Install Git
+### 0️⃣ Install Git
 
 #### macOS
 
@@ -61,7 +78,7 @@ git config --global user.email "you@example.com"
 
 ---
 
-### 1️⃣ Install Python (≥ 3.9)
+### 1️⃣ Install Python (≥ 3.9)
 
 #### macOS
 
@@ -102,16 +119,16 @@ git remote -v   # origin = your fork, upstream = instructor
 
 ---
 
-### 3️⃣ Create and activate a virtual environment
+### 3️⃣ Create and activate a virtual environment
 
-#### macOS / Linux
+#### macOS / Linux
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-#### Windows (PowerShell)
+#### Windows (PowerShell)
 
 ```powershell
 python -m venv venv
@@ -120,7 +137,7 @@ python -m venv venv
 
 ---
 
-### 4️⃣ Install project dependencies
+### 4️⃣ Install project dependencies
 
 ```bash
 pip install --upgrade pip && pip install -r requirements.txt
