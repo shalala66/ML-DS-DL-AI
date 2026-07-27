@@ -4,7 +4,7 @@ A hands-on, project-based path from Python fundamentals to AI Engineering — bu
 
 ## What's Inside
 
-![Curriculum roadmap: Python Essentials through Deep Learning are complete; NLP + Transformers and LLMs + AI Engineering are planned](assets/curriculum-roadmap.png)
+![Curriculum roadmap: Python Essentials through Deep Learning are complete; NLP + Transformers and LLMs + AI Engineering are planned](curriculum-roadmap.png)
 
 | # | Module | Covers | Status |
 |---|--------|--------|--------|
