@@ -143,6 +143,30 @@ python -m venv venv
 pip install --upgrade pip && pip install -r requirements.txt
 ```
 
+Type:
+```bash 
+$PSVersionTable.PSVersion
+```
+
+If you see version 5.1, `&&` is not supported. However, `&&` works in PowerShell 7+:
+```bash
+Error:
+At line:1 char:27
++ pip install --upgrade pip && pip install -r requirements.txt
++                           ~~
+The token '&&' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+```
+
+Instead, it is best to run the commands separately or use `;`:
+```bash
+pip install --upgrade;pip install -r requirements.txt
+```
+
+### 📢 NOTE: 
+Keep in mind, however, that the second command will execute even if the first one fails.
+
 ### 6. Register the Jupyter Kernel
 
 ```bash
