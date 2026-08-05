@@ -164,7 +164,7 @@ Instead, it is best to run the commands separately or use `;`:
 pip install --upgrade;pip install -r requirements.txt
 ```
 
-### 📢 NOTE: 
+### 📢 NOTE:
 Keep in mind, however, that the second command will execute even if the first one fails.
 
 ### 6. Register the Jupyter Kernel
