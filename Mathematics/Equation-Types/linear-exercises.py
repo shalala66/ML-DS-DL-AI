@@ -53,4 +53,3 @@ b_vector = np.array([11, 1])
 x, y = np.linalg.solve(A_matris, b_vector)
 x, y = round(x, 2), round(y, 2)
 print(f"x = {x}, y = {y}")   # x = 1.86, y = 2.71
-
