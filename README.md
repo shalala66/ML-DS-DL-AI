@@ -134,6 +134,13 @@ source venv/bin/activate
 python -m venv venv
 .\venv\Scripts\activate
 ```
+### 📢 NOTE:
+In certain versions of Windows 10 and 11, the operating system automatically adds the following entry to the "Path" section within the Environment Variables:
+```bash
+%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+```
+Consequently, when the "python" command is executed in the command line, Microsoft's "App Execution Aliases" mechanism triggers (note that `python.exe` and `python3.exe` are configured as aliases for the App Installer), redirecting you to the Microsoft Store page to download the Python installer. To prevent this, you can either delete this path entry or simply run the `py` command (which is Windows' Python Launcher) in the command line.
+
 
 ---
 
