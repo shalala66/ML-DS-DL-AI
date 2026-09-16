@@ -36,6 +36,23 @@ print("1) 2 * x - 5 > 3 for x in [-5, 10]:", filter_simple(-5, 10))
     and print it.
 """
 # Your Solution...
+'''
+ax^2 + bx + c <= 0
+x^2 - 4x + 3 <= 0
+D = 4
+x1 = 1
+x2 = 3
+
+ax^2 + bx + c = a(x - x1)(x - x2) <= 0
+x^2 - 4x + 3 = 1 * (x - 1)(x - 3) <= 0
+1 <= x <= 3
+'''
+import sympy as sp
+
+x = sp.symbols('x', real=True)
+sol = sp.solve_univariate_inequality(x**2 - 4*x + 3 <= 0, x)
+print("2) x**2 - 4*x + 3 <= 0  ⇒", sol)
+
 
 
 """
